@@ -8,3 +8,11 @@ Notes:
 
 
 */
+body {
+    background-color: #f0f4cd;
+    padding: 25px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}

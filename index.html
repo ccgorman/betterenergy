@@ -7,6 +7,13 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <title>Better Energy</title>
+
+    <!-- Initialise -->
+    <link rel="icon" href="favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/eqtr_main.css" media="screen" />
@@ -14,13 +21,66 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/eqtr_IE.css" media="screen" />
 	<![endif]-->
     <link rel="stylesheet" type="text/css" href="assets/css/eqtr_print.css" media="print" />
-    
+
     <!-- Scripts -->
+    <!--
+    To use bootstrap a newer version of JQuery is being used and put in the footer for speed
     <script type="text/javascript" src="assets/js/jquery.js"></script>
+    -->
     <script type="text/javascript" src="assets/js/eqtr_functions.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 <body>
 
+<div class="container">
+    <!-- Static header -->
+    <a id="logo" href="/"><span>Better Energy</span></a>
+    <!-- End static header -->
+    <!-- Static navbar -->
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Plan benefits</a></li>
+                    <li><a href="#">Getting started</a></li>
+                    <li><a href="#">Easy actions</a></li>
+                    <li><a href="#">Low-cost measures</a></li>
+                    <li><a href="#">Join now</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End static navbar -->
+
+
+    <div class="jumbotron">
+        <p>Content area</p>
+    </div>
+
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
