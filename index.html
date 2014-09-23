@@ -45,7 +45,7 @@
         </header>
         <!-- End static header -->
         <!-- Static navbar -->
-        <div class="navbar navbar-default clearfix" role="navigation">
+        <div id="navigation" class="navbar navbar-default clearfix" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -71,9 +71,49 @@
         <!-- End static navbar -->
 
 
-        <div class="jumbotron">
-            <p>Content area</p>
-        </div>
+        <section id="content">
+            <div class="row">
+                <div class="col-8 col-xs-12 col-sm-8 col-lg-8 left-content">
+                    <div id="homebanner">
+                        <img src="assets/images/home-banner.jpg" class="img-responsive">
+                        <div id="homebannerjoin"><a href="" class="joinnow"><span>Join now</span></a></div>
+                    </div>
+
+                </div>
+                <div class="col-4 col-xs-12 col-sm-4 col-lg-4 right-content">
+                    <div id="regbanner">
+                        <img src="assets/images/register-background.jpg" class="img-responsive">
+                        <div id="regbannertext">
+                            <p class="titletext">The latest from <b>Better Energy</b></p>
+                            <p>Sign-up to our <b>email</b> newsletter to
+                            receive all the latest product news, updates and offers...</p>
+                            <form id="register" method="POST" action="register/">
+                                <p><input type="text" name="email" placeholder="Enter your email address" maxlength="255" class="reginput"></p>
+                                <p class="right"><input type="image" name="submit" src="assets/images/signup.png"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:40px;">
+                <div class="col-8 col-xs-12 col-sm-8 col-lg-8 left-content">
+                    <p class="titletext">Get rewarded for saving energy with Better Energy</p>
+                    <p>Lorem ipsum dolor sit amet, duo ad consul everti verterem, iusto populo ut est. Postea cetero consetetur in per, placerat referrentur sea et, ubique effi eos tale regione. No mea viris soleat, hinc nullam accommodare ad vel.</p>
+                </div>
+                <div class="col-4 col-xs-12 col-sm-4 col-lg-4 right-content">
+                    <p class="titletext">Why switch to Better Energy</p>
+                    <p>Get peace of mind knowing you've chosen the right company to supply your energy. Here's why...</p>
+                    <ul>
+                        <li><b>Best Overall Enery Supplier</b> for the 5th consecutive time**</li>
+                        <li><b>Best Value for Money</b> as awarede by uSwitch, compared to all other major energy suppliers in the UK*</li>
+                        <li><b>Best Overall Enery Supplier</b> for the 5th consecutive time**</li>
+                        <li><b>Best Overall Enery Supplier</b> for the 5th consecutive time**</li>
+                        <li><b>Best Overall Enery Supplier</b> for the 5th consecutive time**</li>
+                    </ul>
+                    <p><a href="" class="joinnow"><span>Join now</span></a></p>
+                </div>
+            </div>
+        </section>
 
     </div> <!-- /container -->
     <div class="container footer">
