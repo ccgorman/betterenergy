@@ -44,6 +44,9 @@
             <a id="logo" href="/"><span>Better Energy</span></a>
         </header>
         <!-- End static header -->
+        <!-- Screen reader skip -->
+        <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+        <!-- End screen reader skip -->
         <!-- Static navbar -->
         <div id="navigation" class="navbar navbar-default clearfix" role="navigation">
             <div class="container-fluid">
@@ -70,26 +73,26 @@
         </div>
         <!-- End static navbar -->
 
-
+        <!-- Main content block -->
         <section id="content">
             <div class="row">
                 <div class="col-8 col-xs-12 col-sm-8 col-lg-8 left-content">
                     <div id="homebanner">
-                        <img src="assets/images/home-banner.jpg" class="img-responsive">
+                        <img src="assets/images/home-banner.jpg" class="img-responsive" alt="better energy main banner">
                         <div id="homebannerjoin"><a href="" class="joinnow"><span>Join now</span></a></div>
                     </div>
 
                 </div>
                 <div class="col-4 col-xs-12 col-sm-4 col-lg-4 right-content">
                     <div id="regbanner">
-                        <img src="assets/images/register-background.jpg" class="img-responsive">
+                        <img src="assets/images/register-background.jpg" class="img-responsive" alt="background image">
                         <div id="regbannertext">
                             <p class="titletext">The latest from <b>Better Energy</b></p>
                             <p>Sign-up to our <b>email</b> newsletter to
                             receive all the latest product news, updates and offers...</p>
                             <form id="register" method="POST" action="register/">
                                 <p><input type="text" name="email" placeholder="Enter your email address" maxlength="255" class="reginput"></p>
-                                <p class="right"><input type="image" name="submit" src="assets/images/signup.png"></p>
+                                <p class="right"><input type="image" name="submit" src="assets/images/signup.png" alt="submit"></p>
                             </form>
                         </div>
                     </div>
@@ -97,11 +100,11 @@
             </div>
             <div class="row" style="margin-top:40px;">
                 <div class="col-8 col-xs-12 col-sm-8 col-lg-8 left-content">
-                    <p class="titletext">Get rewarded for saving energy with Better Energy</p>
+                    <h1>Get rewarded for saving energy with Better Energy</h1>
                     <p>Lorem ipsum dolor sit amet, duo ad consul everti verterem, iusto populo ut est. Postea cetero consetetur in per, placerat referrentur sea et, ubique effi eos tale regione. No mea viris soleat, hinc nullam accommodare ad vel.</p>
                 </div>
                 <div class="col-4 col-xs-12 col-sm-4 col-lg-4 right-content">
-                    <p class="titletext">Why switch to Better Energy</p>
+                    <h2>Why switch to Better Energy</h2>
                     <p>Get peace of mind knowing you've chosen the right company to supply your energy. Here's why...</p>
                     <ul>
                         <li><b>Best Overall Enery Supplier</b> for the 5th consecutive time**</li>
@@ -114,13 +117,15 @@
                 </div>
             </div>
         </section>
-
-    </div> <!-- /container -->
+        <!-- End main content block -->
+    </div>
+    <!-- Footer block -->
     <div class="container footer">
         <p><b>Terms and conditions</b></p>
         <p>Lorem ipsum dolor sit amet, duo ad consul everti verterem, iusto populo ut est. Postea cetero consetetur in per, placerat referrentur sea et, ubique efficiantur in nec. Stet ferri sonet at eam, eam in omnis albucius vituperatoribus. Deserunt hendrerit evertitur ius cu, eu mutat facer facilisis per, per idque aeque te. Oratio feugait te ius, cu eos tale regione. No mea viris soleat, hinc nullam accommodare ad vel.</p>
         <p>Ad mel eius splendide, no nam sanctus albucius quaerendum. Mel ex lucilius liberavisse, id est posse porro munere. Postea dicunt suscipiantur ad pro, pri cibo impedit conclusionemque ne. Cu dicunt scribentur qui, fugit fierent consequat ex eum, pri errem dissentias at. Vix sumo saepe partiendo te, ignota posidonium comprehensam et vis, id omnis pertinacia vel.</p>
     </div>
+    <!-- End footer block -->
 </div>
 
 <!-- Bootstrap core JavaScript
@@ -128,7 +133,8 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="dist/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug - not required at this stage
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+ -->
 </body>
 </html>

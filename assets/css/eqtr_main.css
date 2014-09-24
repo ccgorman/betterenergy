@@ -32,6 +32,10 @@ body {
 .right {
     text-align:right;
 }
+h1, h2 {
+    font-size:19px;
+    color:#184777;
+}
 
 /*
  *  Site header, just contains the logo
